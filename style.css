@@ -30,3 +30,25 @@ ul {
   .active {
     background-color: orangered;
   }
+
+  img {
+    width: 35%;
+    position: relative;
+    margin: 5%;
+  }
+
+  .img-div {
+    width: 30%;
+    position: relative;
+    margin: 1%;
+    box-shadow: 3px 3px 10px black;
+}
+
+.img-about {
+  position: left;
+  margin: 2%;
+}
+
+.form {
+  margin: 2%;
+}
