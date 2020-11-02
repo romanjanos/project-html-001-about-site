@@ -790,8 +790,24 @@ table.alt tbody tr td {
       width: calc(100% + 1rem); } }
 
 .highlights .content {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
+        background: #ffffff;
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
+
+.highlights .box {
+  background: #ffffff; 
+  display: inline-block;
+    width: 100%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 3px;
+    border: solid 1px white;
+    box-shadow: 0 0 3px black;
+}
+
 
 /* Testimonials */
 .testimonials {

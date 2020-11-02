@@ -31,16 +31,25 @@
     background-color: orangered;
   }
 
+main {
+  width: 100%;
+}
+
   img {
     width: 35%;
     position: relative;
     margin: 5%;
   }
 
+  #images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
   .img-div {
     width: 30%;
-    position: relative;
-    margin: 1%;
+    margin: 0 0 35px 0;
     box-shadow: 3px 3px 10px black;
     display: inline-block;
 }
@@ -52,6 +61,12 @@
 
 .form {
   margin: 2%;
+}
+
+.about-list {
+  margin: 1%;
+  padding: 1%;
+  display: inline-block;
 }
 
 @media screen and (max-width: 600px) {

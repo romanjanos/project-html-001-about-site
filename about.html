@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 
 <body>
@@ -33,56 +33,61 @@
 
     <img class="img-about" src="/images/homes_1.jpg" alt="Önarckép 1.">
 
-    <section>
-        <div class="inner">
-            <p>A távoli 30. században élek, a Rákosszentmihályi toronyváros (Rákszmih torvár) egyik szférakarcol0ójában.
-                A nevem Mzper X, hár X esz ük köb unk, vagyis – a „kibernetikusan ómagyarra” fordított szöveg szerint –
-                a nevem Mézga Törve X-szel. A Mézga család 30. ükunokája vagyok a 30. századból.
-            <p> Lombikbébiként születettem, a szülőanyámként tisztelt lombik neve Lombik Köbgyök 45/X volt. Van egy
-                lombikikertestvérem és egy műtáptejtestvérem. Robothelyettesemet MZ/X/2-nek, fordítógépemet Károly
-                Alfonz Friderikának (röviden Kafnak) hívják.
-            <p> Jelenleg 125 (ötköb) évesen tanulószobámban érettségire
-                készülök, atomkori történelmet (atkor tör) tanulok. További tantárgyaim között szerepel a
-                primitívősgéptan. A kötelező 80 általános iskolai és 40 gimnáziumi osztályt elvégeztem, később az
-                érettségi vizsgát is teljesítettem. </p>
-            <p>Mindennapi eledelem a „rendkívül ízletes és tápláló”
-                hiperultrakivonat (hipulkiv).</p>
-            <p>A 21. századi rokonaimmal időkibővítő készülék (idkibőv kész) alapján, a gondolatátvivő kézikészülék
-                használatával, a Mézga Rádió, Budapest és az MZ/X Minusz Szinusz Gamma, Ultra Mikroszféra rádióállomás
-                között létrejött „titkos és misztikus, kicsit utópisztikus” kapcsolat segítségével kommunikálok.</p>
-        </div>
-    </section>
+    <main>
+        <section>
+            <div class="inner">
+                <p>A távoli 30. században élek, a Rákosszentmihályi toronyváros (Rákszmih torvár) egyik
+                    szférakarcol0ójában.
+                    A nevem Mzper X, hár X esz ük köb unk, vagyis – a „kibernetikusan ómagyarra” fordított szöveg
+                    szerint –
+                    a nevem Mézga Törve X-szel. A Mézga család 30. ükunokája vagyok a 30. századból.
+                <p> Lombikbébiként születettem, a szülőanyámként tisztelt lombik neve Lombik Köbgyök 45/X volt. Van egy
+                    lombikikertestvérem és egy műtáptejtestvérem. Robothelyettesemet MZ/X/2-nek, fordítógépemet Károly
+                    Alfonz Friderikának (röviden Kafnak) hívják.
+                <p> Jelenleg 125 (ötköb) évesen tanulószobámban érettségire
+                    készülök, atomkori történelmet (atkor tör) tanulok. További tantárgyaim között szerepel a
+                    primitívősgéptan. A kötelező 80 általános iskolai és 40 gimnáziumi osztályt elvégeztem, később az
+                    érettségi vizsgát is teljesítettem. </p>
+                <p>Mindennapi eledelem a „rendkívül ízletes és tápláló”
+                    hiperultrakivonat (hipulkiv).</p>
+                <p>A 21. századi rokonaimmal időkibővítő készülék (idkibőv kész) alapján, a gondolatátvivő kézikészülék
+                    használatával, a Mézga Rádió, Budapest és az MZ/X Minusz Szinusz Gamma, Ultra Mikroszféra
+                    rádióállomás
+                    között létrejött „titkos és misztikus, kicsit utópisztikus” kapcsolat segítségével kommunikálok.</p>
+            </div>
+        </section>
+
+        <section class="inner">
+            <div class="about-list">
+                <header>Erősségeim:</header>
+                <ol>
+                    <li>Kreativitás</li>
+                    <li>Precizitás</li>
+                    <li>Hatékonyság</li>
+                </ol>
+            </div>
+
+            <div class="about-list">
+                <header>Hobbijaim:</header>
+                <ul>
+                    <li>Tanulás</li>
+                    <li>Új dolgok feltalása</li>
+                    <li>A múlt felfedezése</li>
+                </ul>
+            </div>
+
+            <div class="about-list">
+                <header>Nyelvtudásom:</header>
+                <ol>
+                    <li>Új magyar</li>
+                    <li>Köz angol</li>
+                    <li>Globális új nyelv</li>
+                </ol>
+            </div>
+        </section>
 
 
-    <div class="inner">
-        <header>Erősségeim:</header>
-        <ol>
-            <li>Kreativitás</li>
-            <li>Precizitás</li>
-            <li>Hatékonyság</li>
-        </ol>
-    </div>
-
-    <div class="inner">
-        <header>Hobbijaim:</header>
-        <ul>
-            <li>Tanulás</li>
-            <li>Új dolgok feltalása</li>
-            <li>A múlt felfedezése</li>
-        </ul>
-    </div>
-
-    <div class="inner">
-        <header>Nyelvtudásom:</header>
-        <ol class="list">
-            <li>Új magyar</li>
-            <li>Köz angol</li>
-            <li>Globális új nyelv</li>
-        </ol>
-    </div>
-
-
-
+    </main>
 
 
     <div>
@@ -90,15 +95,15 @@
             <fieldset>
                 <div class="inner">
                     <label for="name">Név:</label>
-                    <input id="name" name="name" type="text" min="5" minlength="5" required>
+                    <input id="name" name="name" type="text" minlength="5" required>
                 </div>
                 <div class="inner">
                     <label for="email">Email cím:</label>
                     <input id="email" name="email" type="email" required>
                 </div>
                 <div class="inner">
-                    <label for="comment">Üzenet:</label>
-                    <textarea id="comment" name="comment" rows="5" minlength="20" required></textarea>
+                    <label for="message">Üzenet:</label>
+                    <textarea id="message" name="message" rows="3" minlength="20" required></textarea>
                 </div>
             </fieldset>
             <div class="inner">
