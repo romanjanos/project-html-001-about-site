@@ -1,4 +1,4 @@
-ul {
+#main-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,16 +6,16 @@ ul {
     background-color: #333;
   }
   
-  li {
+  #main-nav ul li {
     float: left;
     border-right:1px solid #bbb;
   }
   
-  li:last-child {
+  #main-nav ul li:last-child {
     border-right: none;
   }
   
-  li a {
+  #main-nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -23,7 +23,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  #main-nav ul li a:hover:not(.active) {
     background-color: orange;
   }
   
@@ -42,6 +42,7 @@ ul {
     position: relative;
     margin: 1%;
     box-shadow: 3px 3px 10px black;
+    display: inline-block;
 }
 
 .img-about {
@@ -51,4 +52,11 @@ ul {
 
 .form {
   margin: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .img-div {
+    width: 100%;
+    box-shadow: 3px 3px 10px black;
+  }
 }

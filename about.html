@@ -14,7 +14,7 @@
         <h1>Magamról</h1>
     </header>
 
-    <nav>
+    <nav id="main-nav">
         <ul>
             <li>
                 <a class="active" href="/index.html">Home</a>
@@ -50,9 +50,36 @@
             <p>A 21. századi rokonaimmal időkibővítő készülék (idkibőv kész) alapján, a gondolatátvivő kézikészülék
                 használatával, a Mézga Rádió, Budapest és az MZ/X Minusz Szinusz Gamma, Ultra Mikroszféra rádióállomás
                 között létrejött „titkos és misztikus, kicsit utópisztikus” kapcsolat segítségével kommunikálok.</p>
+        </div>
     </section>
 
 
+    <div class="inner">
+        <header>Erősségeim:</header>
+        <ol>
+            <li>Kreativitás</li>
+            <li>Precizitás</li>
+            <li>Hatékonyság</li>
+        </ol>
+    </div>
+
+    <div class="inner">
+        <header>Hobbijaim:</header>
+        <ul>
+            <li>Tanulás</li>
+            <li>Új dolgok feltalása</li>
+            <li>A múlt felfedezése</li>
+        </ul>
+    </div>
+
+    <div class="inner">
+        <header>Nyelvtudásom:</header>
+        <ol class="list">
+            <li>Új magyar</li>
+            <li>Köz angol</li>
+            <li>Globális új nyelv</li>
+        </ol>
+    </div>
 
 
 
@@ -61,33 +88,33 @@
     <div>
         <form>
             <fieldset>
-                <div class="form">
+                <div class="inner">
                     <label for="name">Név:</label>
-                    <input id="name" name="name" type="text" required>
+                    <input id="name" name="name" type="text" min="5" minlength="5" required>
                 </div>
-                <div class="form">
+                <div class="inner">
                     <label for="email">Email cím:</label>
                     <input id="email" name="email" type="email" required>
                 </div>
-                <div class="form">
+                <div class="inner">
                     <label for="comment">Üzenet:</label>
-                    <textarea id="comment" name="comment" rows="5"></textarea>
+                    <textarea id="comment" name="comment" rows="5" minlength="20" required></textarea>
                 </div>
             </fieldset>
-            <div class="form">
-                <input class="form" type="button" value="Üzenet küldése">
+            <div class="inner">
+                <input type="submit" value="Üzenet küldése">
             </div>
         </form>
     </div>
 
 
 
-
     <footer id="footer">
-        <a href="#top">
-            <button class="content">Ugrás az oldal tetejére</button>
+        <a href="#main-nav">
+            <button>Menu</button>
         </a>
     </footer>
+
 </body>
 
 </html>
